@@ -1,17 +1,17 @@
 package basics;
 
-public class variableUpdateUsingConstructor {
+public class VariableUpdateUsingConstructor {
     int x = 10;
     static int y = 20;
 
-    variableUpdateUsingConstructor(int x, int y) {
+    VariableUpdateUsingConstructor(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
     public static void main(String[] args) {
-        variableUpdateUsingConstructor m = new variableUpdateUsingConstructor(2, 21);
-        variableUpdateUsingConstructor n = new variableUpdateUsingConstructor(3, 22);
+        VariableUpdateUsingConstructor m = new VariableUpdateUsingConstructor(2, 21);
+        VariableUpdateUsingConstructor n = new VariableUpdateUsingConstructor(3, 22);
 
         System.out.println(m.x);//2
         System.out.println(n.x);//3

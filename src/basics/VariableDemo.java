@@ -1,13 +1,13 @@
 package basics;
 
-public class variableDemo {
+public class VariableDemo {
 
     int x = 10;
     static String name = "java";
 
     public static void main(String[] args) {
-        variableDemo m = new variableDemo();
-        variableDemo n = new variableDemo();
+        VariableDemo m = new VariableDemo();
+        VariableDemo n = new VariableDemo();
 
         m.x = 20;
         m.name = "angular";

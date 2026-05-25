@@ -1,6 +1,6 @@
 package basics;
 
-public class variableShadowing {
+public class VariableShadowing {
     int x = 20;
     void show() {
         int x = 10;
@@ -8,7 +8,7 @@ public class variableShadowing {
         System.out.println(this.x);//20
     }
     public static void main(String[] args) {
-        variableShadowing vs = new variableShadowing();
+        VariableShadowing vs = new VariableShadowing();
         vs.show();
     }
 }
