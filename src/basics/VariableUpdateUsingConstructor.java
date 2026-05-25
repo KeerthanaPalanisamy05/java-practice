@@ -16,7 +16,7 @@ public class VariableUpdateUsingConstructor {
         System.out.println(m.x);//2
         System.out.println(n.x);//3
 
-        System.out.println(m.y);//2
-        System.out.println(n.y);//3
+        System.out.println(m.y);//22
+        System.out.println(n.y);//22
     }
 }

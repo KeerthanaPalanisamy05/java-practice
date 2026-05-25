@@ -12,6 +12,7 @@ public class VariableDemo {
         m.x = 20;
         m.name = "angular";
 
+        System.out.println(m.x);//20
         System.out.println(n.x);//10
         System.out.println(n.name);//angular
 
