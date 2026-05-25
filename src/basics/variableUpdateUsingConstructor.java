@@ -2,17 +2,21 @@ package basics;
 
 public class variableUpdateUsingConstructor {
     int x = 10;
-    static String name = "java";
+    static int y = 20;
+
+    variableUpdateUsingConstructor(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
 
     public static void main(String[] args) {
-        variableDemo m = new variableDemo();
-        variableDemo n = new variableDemo();
+        variableUpdateUsingConstructor m = new variableUpdateUsingConstructor(2, 21);
+        variableUpdateUsingConstructor n = new variableUpdateUsingConstructor(3, 22);
 
-        m.x = 20;
-        m.name = "angular";
+        System.out.println(m.x);//2
+        System.out.println(n.x);//3
 
-        System.out.println(n.x);//10
-        System.out.println(n.name);//angular
-
+        System.out.println(m.y);//2
+        System.out.println(n.y);//3
     }
 }
