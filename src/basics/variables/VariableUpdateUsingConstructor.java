@@ -1,4 +1,4 @@
-package basics;
+package basics.variables;
 
 public class VariableUpdateUsingConstructor {
     int x = 10;
