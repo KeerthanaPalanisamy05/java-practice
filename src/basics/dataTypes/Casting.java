@@ -19,7 +19,7 @@ public class Casting {
         Casting cast = new Casting();
         System.out.println(cast.y);//100.0
         System.out.println(cast.i);//99
-        System.out.println(cast.a);//99
+        System.out.println(cast.a);//A
 
     }
 }
