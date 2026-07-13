@@ -31,6 +31,7 @@ public class ObjectReference {
 //        o3 ---> Object A (salary=50)
 //        o2 ---> Object B (salary=50)// Copy Constructor
 
+
         //modify data using one reference
         o1.salary = 60;
 
